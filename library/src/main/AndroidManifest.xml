@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.github.xiaogegechen.library">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application android:theme="@style/AppTheme">
+        <activity android:name=".expansion.DefaultLinkActivity"/>
+        <activity android:name=".expansion.DefaultPictureActivity"/>
+    </application>
+</manifest>
